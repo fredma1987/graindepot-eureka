@@ -14,5 +14,6 @@ public class GraindepotEurakaApplication extends SpringBootServletInitializer {
     public static void main(String[] args) {
         SpringApplication.run(GraindepotEurakaApplication.class, args);
 
+
     }
 }
