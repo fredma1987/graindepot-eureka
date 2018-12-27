@@ -8,10 +8,12 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 /**
  * Created by Administrator on 2018-12-5.
  */
-@EnableEurekaServer  //����һ������ע�������ṩ������Ӧ�ý��жԻ�
+@EnableEurekaServer
 @SpringBootApplication
 public class GraindepotEurakaApplication extends SpringBootServletInitializer {
     public static void main(String[] args) {
         SpringApplication.run(GraindepotEurakaApplication.class, args);
+
+
     }
 }
